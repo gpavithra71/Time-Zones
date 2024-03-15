@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+rel="stylesheet"
+/>
+
+<title>TimeZone</title>
+
+    
+
+    <style>
+        div{
+            display:inline-block;
+            margin: 5px;
+        }
+        fieldset{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgb(14, 196, 84);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #asia{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgb(176, 20, 20);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #usa{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgb(235, 168, 52);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #aus{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgb(61, 53, 207);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #can{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgb(214, 32, 199);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #fran{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgb(58, 187, 227);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #paris{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgba(10, 229, 218, 0.289);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #green{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgba(232, 239, 31, 0.952);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #cal{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgba(233, 41, 15, 0.952);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        #spain{
+            width: 250px;
+            height: 200px;
+            text-align: center;
+            background-color: rgba(193, 134, 72, 0.952);
+            color: ghostwhite;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <form action="">
+            <fieldset>
+                <h4>
+                    Asia/Kolkata
+                </h4>
+                <h1>
+                    INDIA
+                </h1>
+                <h5 id="date">
+                    12/29/2022
+                </h5>
+               
+                    <h3 id="time">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div >
+        <form action="">
+            <fieldset id="usa">
+                <h4>
+                    America/New_York
+                </h4>
+                <h1>
+                    USA
+                </h1>
+                <h5 id="date1">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time1">00:00:00 AM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div >
+        <form action="">
+            <fieldset id="asia">
+                <h4>
+                    Asia/Shanghai
+                </h4>
+                <h1>
+                    CHINA
+                </h1>
+                <h5 id="date2">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time2">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="aus">
+                <h4>
+                    Victoriaa/Melbourne
+                </h4>
+                <h1>
+                    AUSTRALIA
+                </h1>
+                <h5 id="date3">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time3">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="can">
+                <h4>
+                    Newfoundland/Labrador
+                </h4>
+                <h1>
+                    CANADA
+                </h1>
+                <h5 id="date4">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time4">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="fran">
+                <h4>
+                    France/paris
+                </h4>
+                <h1>
+                    EUROPE
+                </h1>
+                <h5 id="date5">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time5">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="paris">
+                <h4>
+                    ASIA/paris
+                </h4>
+                <h1>
+                    RUSSIA
+                </h1>
+                <h5 id="date6">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time6">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="green">
+                <h4>
+                    Greenland/West Coast
+                </h4>
+                <h1>
+                    DENMARK
+                </h1>
+                <h5 id="date7">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time7">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="cal">
+                <h4>
+                    California
+                </h4>
+                <h1>
+                    Mexico
+                </h1>
+                <h5 id="date8">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time8">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset id="spain">
+                <h4>
+                    Spain/CanaraIslands
+                </h4>
+                <h1>
+                    Spain
+                </h1>
+                <h5 id="date9">
+                    12/29/2022
+                </h5>
+                
+                    <h3 id="time9">00:00:00 PM</h3>
+                
+            </fieldset>
+        </form>
+    </div>
+
+
+    
+
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+    ></script>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
